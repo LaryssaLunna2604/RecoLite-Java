@@ -1,0 +1,12 @@
+public class RecoModel {
+
+    public void recomendar(String categoria) {
+        if (categoria.equalsIgnoreCase("livros")) {
+            System.out.println("Recomendação: Java Básico, Clean Code");
+        } else if (categoria.equalsIgnoreCase("jogos")) {
+            System.out.println("Recomendação: Headset Gamer, Controle");
+        } else {
+            System.out.println("Categoria não encontrada.");
+        }
+    }
+}
